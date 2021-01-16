@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "hologram's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "jy"
+name                     : ""
 description              : "Publisher."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
