@@ -58,12 +58,13 @@ console.log(ellie.random);
 
 ##### 6. for..in vs for..of
 ```js
-// for (key in obj)
+// for in(key in obj)
+// 모든 key들을 받아와 처리하고 싶을 때 for in
 console.clear(); //이전것들 지워짐
 for (let key in ellie) {
   console.log(key);
 }
-// 모든 key들을 받아와 처리하고 싶을 때 for in
+
 
 // for of (value of iterable)
 // case1 case2 for문보다 더 쉽고 효율적임
