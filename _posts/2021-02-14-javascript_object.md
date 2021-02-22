@@ -2,12 +2,9 @@
 title: "Jvascript object"
 categories:
   - Github blog
-  tags:
-  - object
 ---
 
 ## Jvascript object
-
 ##### 1. object = { key : value }; key와 value의 집합체
 ```js
 const ellie = { name: 'ellie', age: 4 };
