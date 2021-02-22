@@ -2,12 +2,9 @@
 title: "Jvascript Array"
 categories:
   - Github blog
-  tags:
-  - Array
 ---
 
 ## Jvascript Array
-
 ##### 1. Declaration
 ```js
 const arr1 = new Array();
