@@ -1,10 +1,10 @@
 ---
-title: "Jvascript Array"
+title: "Javascript Array"
 categories:
   - Github blog
 ---
 
-## Jvascript Array
+## Javascript Array
 ##### 1. Declaration
 ```js
 const arr1 = new Array();
@@ -39,12 +39,12 @@ for(let fruit of fruits) {
 // 전달한 callback 함수를 value하나 하나마다 호출
 // thisArg? : any 파라미터를 전달해도 안해도 됨
 // callback 함수에는 총 3가지의 인자가 들어옴
-// 1. value (callback 함수 호출하는 value 즉 배열에 있는 값이 전달) 
+// 1. value (callback 함수 호출하는 value 즉 배열에 있는 값이 전달)
 // 2. index (그 값이 들어있는 index)
 // 3. array (전체적인 배열)
 
 // fruits.forEach(function ( fruit, index, array ){ // array는 보통 생략함
-//   console.log(fruit, index); 
+//   console.log(fruit, index);
 // });
 
 // fruits.forEach(function ( fruit, index ){

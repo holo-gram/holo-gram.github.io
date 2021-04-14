@@ -1,20 +1,20 @@
 ---
-title: "Jvascript operator, if, for loop"
+title: "Javascript operator, if, for loop"
 categories:
   - Github blog
 tags:
-  - Jvascript
+  - Javascript
   - operator
   - if
   - for
 ---
 
-## Jvascript operator, if, for loop
+## Javascript operator, if, for loop
 
 ##### 1. Increment and decrement operators
 ```js
 let counter = 2;
-const preIncrement = ++counter; 
+const preIncrement = ++counter;
 // counter에 1을 먼저 더한다음 preIncrement에 값을 할당한다.
 // counter = counter + 1;
 // preIncrement = counter;
@@ -31,13 +31,13 @@ const postIncrement = counter++;
 const value1 = true;
 const value2 = 4 < 2;
 
-// || (or), finds the first truthy value 
+// || (or), finds the first truthy value
 // 3개중에 하나라도 true면 true
 console.log(`or: ${value1 || value2 || check()}`);
 // or 연산자는 처음부터 true가 나오면 true!!
 // 순서주의 (익스프레션, heavy한 오퍼레이션, 함수 호출하는것을 제일 뒤에 배치하는것이 효율적인 코드!)
 
-// && (and), finds the first falsy value 
+// && (and), finds the first falsy value
 // 3개다 true여야 true!
 console.log(`and: ${value1 && value2 && check()}`);
 // often used to compress long if-statement
@@ -77,7 +77,7 @@ console.log(0 === false); // false 0은 boolean타입이 아니므로
 console.log('' == false); // true
 console.log('' === false); // false ''문자열은 boolean타입이 아니므로
 console.log(null == undefined); // true
-console.log(null === undefined); // false 
+console.log(null === undefined); // false
 ```
 
 ##### 4. Conditional operators: if
@@ -96,7 +96,7 @@ if (name === 'ellie') {
 ##### 5. Ternary operator: ?
 ```js
 // condition ? value1 : value2;
-console.log(name === 'ellie' ? 'yes' : 'no'); 
+console.log(name === 'ellie' ? 'yes' : 'no');
 // true면 yes false면 no
 // 값을 할당하거나 간단하게 출력시 좋음
 ```
@@ -124,7 +124,7 @@ switch (browser) {
 
 ##### 7. Loops
 ```js
-// while loop, while the condition is truthy, 
+// while loop, while the condition is truthy,
 // body code is executed.
 let i = 3;
 while (i > 0) {
@@ -133,12 +133,12 @@ while (i > 0) {
 }
 
 // do while loop, body code is executed first, {}블럭을 실행 후 조건이 맞는지 안맞는지 검사
-// then check the condition. 
+// then check the condition.
 do {
   console.log(`do while: ${i}`);
   i--;
 } while (i > 0);
-// 조건문이 맞을때만 블럭을 실행하고 싶으면 while, 
+// 조건문이 맞을때만 블럭을 실행하고 싶으면 while,
 // 블럭을 먼저 실행하고 싶다면 do while
 
 

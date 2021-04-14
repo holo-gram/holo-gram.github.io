@@ -1,10 +1,10 @@
 ---
-title: "Jvascript class vs object 개념"
+title: "Javascript class vs object 개념"
 categories:
   - Github blog
 ---
 
-## Jvascript class vs object 개념
+## Javascript class vs object 개념
 ##### class : 붕어빵을 만들수 있는 틀
 - template // 템플릿화 되어있음
 - declare once //한 번만 선언

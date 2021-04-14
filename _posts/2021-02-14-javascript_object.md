@@ -1,10 +1,10 @@
 ---
-title: "Jvascript object"
+title: "Javascript object"
 categories:
   - Github blog
 ---
 
-## Jvascript object
+## Javascript object
 ##### 1. object = { key : value }; key와 value의 집합체
 ```js
 const ellie = { name: 'ellie', age: 4 };

@@ -1,12 +1,12 @@
 ---
-title: "Jvascript function"
+title: "Javascript function"
 categories:
   - Github blog
 tags:
   - function
 ---
 
-## Jvascript function
+## Javascript function
 1. fundamental building block in the program<br/>
 **프로그램을 구성하는 빌딩 블록**
 2. subprogram can be used multiple times<br/>
@@ -14,7 +14,7 @@ tags:
 3. performs a task or calculates a value<br/>
 **한가지의 task나 어떤 값을 계산하기 위해 쓰여짐**
 
-##### 1. Jvascript에서 function을 정의하는 방법
+##### 1. Javascript에서 function을 정의하는 방법
 **function name(param1, param2) { body... return; }**<br/>
 **one function === one thing**<br/>
 **naming: doSomething, command, verb** 이름은 동사형태로!
@@ -60,7 +60,7 @@ printAll('dream', 'coding', 'ellie');
 let globalMessage = 'global'; // global variable 전역변수
 function printMessage() {
   let message = 'hello';
-  console.log(message); 
+  console.log(message);
   // local variable 지역변수
   // { block안에서 변수선언 / 안에서만 접근 가능 / 안에서는 밖을 볼 수 있다.}
   console.log(globalMessage);

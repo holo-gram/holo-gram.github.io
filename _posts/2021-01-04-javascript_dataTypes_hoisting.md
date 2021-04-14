@@ -1,5 +1,5 @@
 ---
-title: "Jvascript 데이터타입, hoisting"
+title: "Javascript 데이터타입, hoisting"
 categories:
   - Github blog
 tags:
@@ -7,20 +7,20 @@ tags:
   - hoisting
 ---
 
-## Jvascript 데이터타입, hoisting
+## Javascript 데이터타입, hoisting
 
 ##### 1. Variable(변수: 변경될 수 있는 값)
 > let (added in ES6)
 
-Global scope 
-**어느곳에서나 접근이 가능** 
+Global scope
+**어느곳에서나 접근이 가능**
 ```js
 let globalName = 'global name';
 ```
 글로벌한 변수들은 어플리케이션이 실행되는 순간부터 끝날때까지 항상 메모리에 탑재되어있기 때문에 최소한으로 쓰는것이 좋다. 그러므로 가능하면 필요한 부분에서만 정의해서 쓰는게 좋다.
 
 
-Block scope 
+Block scope
 **Block 밖에서는 Block안의 내용들을 볼 수 없게된다.**
 ```js
 {
@@ -39,7 +39,7 @@ console.log(globalName); //{}밖에서도 보인다.
 어디에 선언했느냐에 상관없이 항상 제일위로 선언을 끌어올려주는것!
 
 **var**
-- var hoisting (move declaration from bottom to top) 
+- var hoisting (move declaration from bottom to top)
 - has no block scope
 
 
@@ -53,7 +53,7 @@ favor immutable data type always for a few reasons
 3. reduce human mistakes
 
 
-##### null 
+##### null
 **비어있는값을 지정해주는것**
 ```js
 let nothing = null;
