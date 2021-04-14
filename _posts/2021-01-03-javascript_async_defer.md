@@ -1,14 +1,14 @@
 ---
-title: "Jvascript HTML 링크 & async와 defer"
+title: "Jvascript HTML 링크 & asyncc와 defer"
 categories:
   - Github blog
 tags:
   - Jvascript
-  - async
+  - asyncc
   - defer
 ---
 
-## Jvascript를 HTML에 링크할때 효율적인 방법 & async와 defer의 차이점
+## Jvascript를 HTML에 링크할때 효율적인 방법 & asyncc와 defer의 차이점
 
 ##### 1.head안에 'script'를 포함하게 되는 경우
 ```html
@@ -49,19 +49,19 @@ html을 쭉 분석하다가 스크립트 태그가 보이면 분석하는걸 멈
 
 
 
-##### 3.head안에 'script'에 asyn 속성 값을 사용하는 경우
+##### 3.head안에 'script'에 async 속성 값을 사용하는 경우
 ```html
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <script asyn src="main.js"></script>
+    <script async src="main.js"></script>
 </head>
 ```
-asyn(에이싱크)는 boolean 타입의 속성값을 가지기 때문에 선언하는 것만으로 true로 설정이 된다.
+async(에이싱크)는 boolean 타입의 속성값을 가지기 때문에 선언하는 것만으로 true로 설정이 된다.
 
-브라우저가 html을 다운로드 받아서 분석하다 asyn가 있는걸 발견하고 병렬로 js를 다운받으라고 명령한다.
+브라우저가 html을 다운로드 받아서 분석하다 async가 있는걸 발견하고 병렬로 js를 다운받으라고 명령한다.
 그럼 다시 분석을 하다 js 다운로드가 완료가 되면 그때 분석하는걸 멈추고 다운로드 된 js파일을 실행한다.
 이렇게 실행을 다하고 나서 나머지 html을 분석하게 된다.
 
@@ -91,8 +91,8 @@ html 분석을 먼저 해서 사용자에게 페이지를 보여준 다음에
 
 ___
 
-##### 다수의 스크립트를 받게 될 경우  asyn 와 defer의 차이
-**asyn**
+##### 다수의 스크립트를 받게 될 경우  async 와 defer의 차이
+**async**
 정의된 스크립트 순서에 상관없이 다운로드가 먼저 된 걸 실행하기 때문에
 만약 순서에 의존적인 자바스크립트라면 문제가 될 수 있다.
 
