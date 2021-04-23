@@ -10,7 +10,7 @@ categories:
 
 ## null == undefined
 ```js
-null == undefined //true
+null == undefined //true ( 자바스크립트 == 연산자의 자동 형변환 )
 null === undefined //false (완벽비교, 데이터 타입끼리 동일한지 비교)
 ```
 
