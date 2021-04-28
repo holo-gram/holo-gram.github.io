@@ -1,16 +1,16 @@
 ---
-title: "Javascript HTML 링크 & asyncc와 defer"
+title: "Javascript HTML 링크 & async와 defer"
 categories:
   - Github blog
 tags:
   - Javascript
-  - asyncc
+  - async
   - defer
 toc: true
 toc_sticky: true
 ---
 
-## Javascript를 HTML에 링크할때 효율적인 방법 & asyncc와 defer의 차이점
+## Javascript를 HTML에 링크할때 효율적인 방법 & async와 defer의 차이점
 
 ##### 1.head안에 'script'를 포함하게 되는 경우
 ```html
