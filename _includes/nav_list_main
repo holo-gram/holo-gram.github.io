@@ -18,7 +18,7 @@
                 <!--Html 카테고리 글들을 모아둔 페이지인 /categories/html 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
                 {% for category in site.categories %}
-                    {% if category[0] == "Html" %}
+                    {% if category[0] == "HTML" %}
                         <li><a href="/categories/html" class="">html ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -26,7 +26,7 @@
         <span class="nav__sub-title">CSS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Css" %}
+                    {% if category[0] == "CSS" %}
                         <li><a href="/categories/css" class="">css ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -34,7 +34,7 @@
         <span class="nav__sub-title">JAVASCRIPT</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Javascript" %}
+                    {% if category[0] == "JAVASCRIPT" %}
                         <li><a href="/categories/javascript" class="">javascript ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
