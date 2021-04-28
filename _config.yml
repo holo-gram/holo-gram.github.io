@@ -99,9 +99,6 @@ author:
   location         : "Korea"
   email            : "glintzero@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:glintzero@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://holo-gram.github.io/"
