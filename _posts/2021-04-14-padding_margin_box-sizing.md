@@ -1,7 +1,7 @@
 ---
 title: "padding & margin & box-sizing"
 categories:
-  - HTML&CSS
+  - CSS
 ---
 
 ## padding & margin & box-sizing
