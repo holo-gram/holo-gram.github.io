@@ -1,7 +1,7 @@
 ---
 title: "Javascript class vs object 개념"
 categories:
-  - Github blog
+  - JAVASCRIPT
 ---
 
 ## Javascript class vs object 개념

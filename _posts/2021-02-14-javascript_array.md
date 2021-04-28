@@ -1,7 +1,7 @@
 ---
 title: "Javascript Array"
 categories:
-  - Github blog
+  - JAVASCRIPT
 ---
 
 ## Javascript Array

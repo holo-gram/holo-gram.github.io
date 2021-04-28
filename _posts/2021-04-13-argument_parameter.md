@@ -1,7 +1,7 @@
 ---
 title: "Argument와 Parameter"
 categories:
-  - Github blog
+  - JAVASCRIPT
 ---
 
 ## Argument(인수, 전달인자) Parameter(매개변수)"

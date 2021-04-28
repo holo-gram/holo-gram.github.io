@@ -1,7 +1,7 @@
 ---
 title: "Javascript object"
 categories:
-  - Github blog
+  - JAVASCRIPT
 ---
 
 ## Javascript object

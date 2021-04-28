@@ -1,7 +1,7 @@
 ---
 title: "padding & margin & box-sizing"
 categories:
-  - Github blog
+  - HTML&CSS
 ---
 
 ## padding & margin & box-sizing

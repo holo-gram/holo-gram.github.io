@@ -1,7 +1,7 @@
 ---
 title: "Javascript 데이터타입, hoisting"
 categories:
-  - Github blog
+  - JAVASCRIPT
 tags:
   - data types
   - hoisting

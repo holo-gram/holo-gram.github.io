@@ -1,7 +1,7 @@
 ---
 title: "Safety zone : min-width"
 categories:
-  - Github blog
+  - HTML&CSS
 ---
 
 ## Safety zone : min-width 잡는 이유

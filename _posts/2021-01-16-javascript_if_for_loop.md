@@ -1,7 +1,7 @@
 ---
 title: "Javascript operator, if, for loop"
 categories:
-  - Github blog
+  - JAVASCRIPT
 tags:
   - Javascript
   - operator

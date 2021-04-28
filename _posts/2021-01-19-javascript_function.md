@@ -1,7 +1,7 @@
 ---
 title: "Javascript function"
 categories:
-  - Github blog
+  - JAVASCRIPT
 tags:
   - function
 ---

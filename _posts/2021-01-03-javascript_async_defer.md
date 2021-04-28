@@ -1,7 +1,7 @@
 ---
 title: "Javascript HTML 링크 & async와 defer"
 categories:
-  - Github blog
+  - HTML&CSS
 tags:
   - Javascript
   - async
